@@ -1,4 +1,4 @@
-image: "r8.im/yuval-alaluf/sam"
+image: "r8.im/vamsy-alapati/age-progression"
 build:
   gpu: true
   python_version: "3.8"
@@ -22,4 +22,3 @@ build:
     - "torchvision==0.9.0"
     - "tqdm==4.42.1"
 predict: "predict.py:Predictor"
-
